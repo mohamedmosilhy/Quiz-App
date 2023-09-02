@@ -52,7 +52,7 @@ function getData() {
       });
     }
   };
-  req.open("GET", "data.json", true);
+  req.open("GET", "./data.json", true);
   req.send();
 }
 
