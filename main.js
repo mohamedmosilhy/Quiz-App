@@ -31,7 +31,7 @@ function getData() {
 
       addQuestion(data[currentIndex]);
 
-      setCounter(totalQuestionsNum, 3);
+      setCounter(totalQuestionsNum, 1);
 
       submitButton.addEventListener("click", () => {
         if (currentIndex + 1 === totalQuestionsNum) {
@@ -47,12 +47,12 @@ function getData() {
           handelBullets();
 
           clearInterval(countdown);
-          setCounter(totalQuestionsNum, 3);
+          setCounter(totalQuestionsNum, 1);
         }
       });
     }
   };
-  req.open("GET", "/QuizApplication/data.json", true);
+  req.open("GET", "data.json", true);
   req.send();
 }
 

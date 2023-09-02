@@ -1,9 +1,3 @@
-Certainly! I've added a "Demo" section and a "Technologies Used" section to your README file to provide information about how to see the project in action and the technologies used to build it.
-
-Here's the updated README file:
-
----
-
 # Quiz Application
 
 ## Overview
@@ -22,7 +16,7 @@ This is a simple quiz application that allows users to take a quiz and receive t
 
 You can try out the quiz application by following these steps:
 
-1. Visit the [Quiz Application Demo](https://your-demo-link.com) to access the live version of the quiz.
+1. Visit the [Quiz Application Demo](https://mohamedmosilhy.github.io/Quiz-App/) to access the live version of the quiz.
 
 2. You will see the category, the total number of questions, and a question with multiple-choice answers.
 
@@ -61,7 +55,7 @@ This project makes use of the following technologies and tools:
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/yourusername/quiz-application.git
+   git clone https://github.com/mohamedmosilhy/Quiz-App.git
    ```
 
 2. Open the `index.html` file in a web browser to run the quiz application.
